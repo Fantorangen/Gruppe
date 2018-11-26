@@ -1,0 +1,5 @@
+from pandas import *
+
+Tall = read_csv("Tall.csv",sep = ";", encoding = "ISO-8859-1")
+
+print(Tall.sample())
